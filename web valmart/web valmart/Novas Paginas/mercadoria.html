@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastrar Mercadoria</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<fieldset>
+			<legend>Cadastrar Mercadoria</legend>
+			<table style="width:100%;" align="center">
+				<form action="CadastrarMercadoria" method="POST">
+					<tr>
+						<td align="right" style="width:50%">Nome:</td>
+						<td>
+							<input type="text" name="nome"/>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">Preço Total:</td>
+						<td>
+							<input type="text" name="precoTotal"/>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">Qtde. de Parcelas:</td>
+						<td>
+							<input type="text" name="qtdParcela"/>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">Valor da Parcela:</td>
+						<td>
+							<input type="text" name="valorParcela"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<input type="submit" value="Cadastrar"/>
+						</td>
+					</tr>
+				</form>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Mercadorias Cadastradas</legend>
+			<table style="width:100%;">
+				<tr>
+					<td>Cód. Mercadoria</td>
+					<td>Nome</td>
+					<td>Qtde. de Parcelas</td>
+					<td>Valor da Parcela</td>
+					<td>Total</td>
+					<td>Editar</td>
+					<td>Excluir</td>
+				</tr>
+				<form action="ExcluirMercadoria" method="POST">	
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<input type="button" value="Editar"/>
+						</td>
+						<td>
+							<input type="checkbox" value="" name="excluir"/>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<input type="submit" value="Excluir" name="excluir"/>
+						</td>
+					</tr>
+				</form>
+			</table>
+		</fieldset>
+	</body>
+</html>

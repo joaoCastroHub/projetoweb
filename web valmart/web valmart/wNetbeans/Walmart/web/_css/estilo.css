@@ -1,0 +1,275 @@
+@charset "iso-8859-1";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600,400);
+/* CSS Document */
+
+
+body, html{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+
+	background-color: #DDD;
+
+}
+
+a{
+
+	text-decoration: none;
+	color: #FFF;
+
+}
+
+.cabecalho{
+
+	height: 60px;
+	width: 100%;
+	max-width: 1366px;
+	background-color: #1A75CE;
+	position: fixed;
+	top: 0;
+	margin: auto;
+	font-family: "Open Sans",sans-serif;
+	color: #FFF;
+	font-size: 15px;
+	min-width: 957px;
+
+}
+
+img.logo{
+
+	margin: 7px;
+	height: 40px;
+	width: 173px;
+
+
+}
+
+.tudo{
+
+	position: relative;
+	margin: auto;
+	width: 100%;
+	max-width: 1366px;
+	min-width: 957px;
+	background-color: #fff
+
+}
+
+.header{
+
+	height: 60px;
+	width: 100%;	
+
+}
+
+.conteudo{
+
+	font-family: "Open Sans",sans-serif;
+	background: #FFF;
+	height: 210px;
+	width: 100%;
+	border-bottom: solid #CFCFCF 1px;
+	padding-top: 10px;
+		
+}
+
+.conteudo:hover{
+
+		background: #CCC;
+
+}
+
+ .conteudo:hover, .geral:hover {
+
+	box-shadow: 1px 2px 1px black;
+}
+
+.conteudo-geral{
+
+	margin:auto;
+	width: 99%;
+	
+}
+
+.conteudo-interno{
+
+	list-style-type: none;
+	width: 100%;
+	margin: 2px 0px 0px 0px;
+	padding: 0px;
+	padding-left: 2px;
+
+}
+
+.mercadoria{
+
+	display: inline-block;
+	width: 33%;
+	height: 248px;
+
+}
+
+.cabecalho-esquerda{
+
+	position: absolute;
+	width: 200px;
+
+
+}
+
+.conteiner{
+
+	float:right;
+	height: 60px;	
+}
+
+.ajuda{
+
+	display:inline-block;
+	margin-right: 36px;
+	
+}
+
+.img-ajuda{
+	
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	height: 19px;
+	width: 19px;
+	background-image:url(../_img/Ajuda-menor.png);
+	background-repeat:no-repeat;
+	
+}
+
+.img-ajuda:hover{
+	
+	background-image:url(../_img/Ajuda-laranja-menor.png);
+
+}
+
+.img-ajuda:hover ~ .span-ajuda{
+	
+	color: #F6B428;
+}
+
+.span-ajuda{
+	
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	
+}
+	
+	
+.hovercabecalho:hover{
+	color: #F6B428;
+}
+
+.pesquisa{
+	
+	margin-left: 21px;
+	margin-right: 21px;
+	display:inline-block;
+	
+}
+
+input[type=text].pesquisa-cabecalho{
+	
+	font-size: 100%;
+	background-color:#FFF;
+	border: none;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+	padding-right: 35px;
+	padding: 6px 12px;
+	width: 300px;
+	height: 23px;
+	
+}
+
+input[type=submit]{
+	
+	border: none;
+	background-color:transparent;
+	background-image: url(../_img/Pesquisar-menor.png);
+	background-repeat: no-repeat;
+	margin-left: -30px;
+	padding: 4px;
+	height: 21px;
+	width: 21px;
+	cursor: pointer;
+	
+}
+
+.usuario{
+	
+	display:inline-block;
+	padding-right: 20px;
+	
+}
+
+.texto-usuario{
+	color: #F6B428;
+}
+
+.img-usuario{
+
+	display:inline-block;
+	position:relative;
+	top: 5px;
+	height: 21px;
+	width: 21px;
+	background-image: url(../_img/Entrar-menor.png);
+	background-repeat: no-repeat;
+}
+
+.span-usuario{
+
+	color: #FFF;
+	
+}
+
+.img-usuario:hover ~ .span-usuario{
+	
+	color: #F6B428;
+	
+}
+
+.img-usuario:hover{
+	
+	background-image: url(../_img/Entrar-laranja-menor.png);
+	
+}
+
+.carrinho{
+	
+	position: relative;
+	right: -1px;
+	display:inline-block;
+	height: 57px;
+	width: 58px;
+	text-align: center;
+	background-color: #F6B428;
+	border-bottom: 3px solid #CD8D06;
+	border-left: 1px solid #FCD88D;
+	border-right: 1px solid #E6A316;
+	
+}
+
+.img-carrinho{
+
+	top: 3px;
+	margin-top: 10px;
+
+}
+
+
+
+	

@@ -1,0 +1,168 @@
+/*Css Valmart*/
+body, html{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+
+	background-color: #CFCFCF;
+}
+
+.cabecalho{
+
+	height: 60px;
+	width: 100%;
+	max-width: 1366px;
+	background-color: #1A75CE;
+	position: fixed;
+	top: 0;
+	margin: auto;
+
+}
+
+img.logo{
+
+	margin: 7px;
+	height: 40px;
+	width: 173px;
+
+
+}
+
+.tudo{
+
+	position: relative;
+	margin: auto;
+	width: 100%;
+	max-width: 1366px;
+	height: 2000px;
+	background-color: #fff
+
+}
+
+.header{
+
+	height: 60px;
+	width: 100%;	
+
+}
+
+.conteudo{
+
+	height: 250px;
+	width: 100%;
+	border-bottom: solid #CFCFCF 1px;
+
+}
+
+.conteudo-interno{
+
+	list-style-type: none;
+	width: 100%;
+	margin: 2px 0px 0px 0px;
+	padding: 0px;
+	padding-left: 2px;
+
+}
+
+.mercadoria{
+
+	display: inline-block;
+	width: 33%;
+	height: 248px;
+
+}
+
+table{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.cabecalho-esquerda{
+
+	position: absolute;
+	width: 200px;
+
+
+}
+
+.cabecalho-direita{
+
+	float: right;
+ 	
+}
+
+?/*
+.barra-pesquisa, .area-usuario, .carrinho, .conteiner-ajuda {
+
+	display: inline-block;
+
+}
+*/
+
+.conteiner-ajuda{
+
+	width: 70px;
+	height: 60px;
+	background-color: #CFCFCF;
+	position: relative;
+
+}
+
+img.Ajuda{
+
+	height: 19px;
+	width: 19px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.barra-pesquisa{
+
+	height: 60px;
+	width: 300px;
+	background-color: black;
+	position: relative;
+
+}
+
+div.barra-pesquisa input{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+div.barra-pesquisa img{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.area-usuario{
+
+	height: 60px;
+	width: 200px;
+	background-color: red;
+	position: relative;
+}
+
+.carrinho{
+
+	height: 60px;
+	width: 60px;
+	background-color: #F0C556;
+	position: relative;
+	float: right;
+
+}
+
+
+
