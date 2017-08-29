@@ -31,3 +31,17 @@
     font-family: Hind,Arial,sans-serif;
     align-self: flex-end;
 }
+
+.broco{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-search{
+    border: none;
+    height: 45px;
+    width: 50%;
+    border-radius: 3px;
+}
