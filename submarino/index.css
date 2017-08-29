@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: 100px;
     background-color: #00adef;
     position: fixed;
     top: 0;
@@ -15,26 +15,26 @@
 
 .bloco{
     height: 100%;
-    padding: 30px;
+    padding: 10px;
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 .menu-login{
     height: 50%;
-    display: inline-flex;
+    display: flex;
     align-items: center;f
 }
 
 .icone-sub{
-    margin-top: 13px;
-    transform: scale(0.6);
     cursor: pointer;
 }
 
 .image-link{
-    height: 100%;
-    margin-left: 6%;
-    width: fit-content;
+    transform: scale(0.2);
+    transform-origin: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .link-txt{
@@ -48,14 +48,58 @@
 .input-search{
     border: none;
     height: 80%;
-    width: 100%;
-    border-radius: 10px;
+    width: calc(100% - 65px);
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: Hind,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: start;
+    font-size: 15px;
+    padding-left: 5px;
 }
 
 .login-icon{
-    height: 60px;
+    position: absolute;
+    right: 65px;
+}
+
+.cart-icon{
+    position: absolute;
+    right: 15px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+    padding:0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.crt-icon{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.search-icon{
+    max-width: 60%;
+    height: 60%;
+    fill: #00adef;
+    vertical-align: middle;
+}
+
+.btn-search{
     width: 60px;
-    color:#666;
+    height: 83%;
+    background-color: #fff;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 /*---hamburguer---*/
@@ -63,10 +107,10 @@
 #hamburguer span{
     display: block;
     position: absolute;
-    height: 7px;
-    width: 65px;
-    margin-left: 33px;
-    margin-top: 45px;
+    height: 2px;
+    width: 21px;
+    margin-left: 15px;
+    margin-top: 15px;
     background: #fff;
 }
 
@@ -75,9 +119,9 @@
 }
 
 #hamburguer span:nth-child(2) {
-  top: 18px;
+  top: 6px;
 }
 
 #hamburguer span:nth-child(3) {
-  top: 36px;
+  top: 12px;
 }
