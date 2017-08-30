@@ -38,6 +38,7 @@
 }
 
 .link-txt{
+    display: none;
     color: #fff;
     font-size: .8125em;
     text-decoration: underline;
@@ -124,4 +125,117 @@
 
 #hamburguer span:nth-child(3) {
   top: 12px;
+}
+
+/*-----header a partir de 768------*/
+
+.header768{
+    display:none;
+}
+
+.hmbr{
+    display: block;
+}
+
+.minha-conta{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .header{
+        display: none;
+    }
+
+    .header768{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 75px;
+        background-color: #00adef;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .menu-login{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    #hamburguer span {
+        margin-top: 28px;
+    }
+
+    .input-block{
+        height: 75%;
+        left: 133px;
+        position: absolute;
+        width: calc(100% - 240px);
+    }
+
+    .bloco{
+        padding-top: 5px;
+        width: 100%;
+    }
+
+    .box-icones{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .hmbr{
+        display: none;
+    }
+
+    .image-link {
+        transform: scale(0.3);
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-search{
+        border: solid 2px #fff;
+        background-color: #00adef;
+    }
+
+    .search-icon{
+        fill: #fff;
+    }
+
+    .link-txt{
+        display: block;
+        font-size: 40px;
+    }
+
+    .input-block {
+        left: 175px;
+        width: calc(100% - 425px);
+    }
+
+    .minha-conta{
+        display: block;
+        color: #fff;
+        margin-left: 10px;
+        font-family: Hind,Arial,sans-serif;
+    }
+
+    .login-icon{
+        display: flex;
+        align-items: center;
+        right: 100px;
+    }
+
+    .arrow-down{
+        fill: #fff;
+        width: 10px;
+        height: 10px;
+        -webkit-transform: rotate(90deg);
+    }
+
 }
