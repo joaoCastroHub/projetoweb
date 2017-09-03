@@ -279,8 +279,14 @@ footer{
 
     .segunda{
         display: block;
-        width: 90%;
+        width: 95%;
         height: 20%;
+    }
+
+    
+    .terceira{
+        width: 95%;
+        height: 60%;
     }
 }
 
@@ -341,10 +347,6 @@ footer{
         margin-top:70px !important;
     }
 
-    .terceira{
-        width: 95%;
-        height: 60%;
-    }
 
     .txtfooter{
         display: block;
